@@ -1,0 +1,10 @@
+CREATE SCHEMA M5L7;
+
+CREATE TABLE IF NOT EXISTS customers (
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    login VARCHAR(50),
+    password VARCHAR(50)
+);
+
+INSERT INTO customers(login, password) VALUE ('Dima', 25, 10000.00);
+
